@@ -64,7 +64,7 @@ def notify_with_twilio(message):
                     .create(
                         body=message,
                         from_='+19106064612',
-                        to='+19704012661'
+                        to='+19106064612'
                     )
 
     print(message.sid)
